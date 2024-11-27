@@ -1,0 +1,45 @@
+{
+  "Metadata": {
+    "run_name":"",
+    ""
+  },
+  "Component_Data": {
+    "ZResource": [
+      {
+        "name": "Machine01",
+        "capacity": 1,
+        "queue_limit": 10,
+      },
+      {
+        "name": "Machine02",
+        "capacity": 1,
+        "queue_limit": 10,
+      },
+    ],
+    "ComponentType":[]
+  },
+  "Component_Connection": {
+    "Machine01": [
+      {
+        "name": "Machine02",
+        "input_type": "Item2",
+        "send_validater": {},
+        "piority": 0
+      },
+    ],
+    "Machine02": [
+      {
+        "name": "Machine01",
+        "input_type": "Item2",
+        "send_validater": {},
+        "piority": 0
+      },
+    ]
+  },
+  "GenItem_Schema": {
+    {
+      "name": "Item1",
+      "attr":{}
+    },
+  }
+}

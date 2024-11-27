@@ -1,0 +1,24 @@
+{
+  "component_name1":{
+    "paths":{
+      "component_name2": {
+        "types": {
+          "Item1" : { "attr1": 12 },
+          "Item2" : { "attr2": 22 },
+      },
+        "piority": 0
+      }
+    }
+  },
+  "component_name2":{
+    "paths":{
+      "component_name3": {
+        "types": {
+          "Item1" : { "attr1": 12 },
+          "Item1" : { "attr2": 22 }
+        },
+        "piority": 0
+      }
+    }
+  }
+}
